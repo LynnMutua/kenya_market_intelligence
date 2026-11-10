@@ -5,6 +5,19 @@ build/
 dist/
 wheels/
 *.egg-info
+.pytest_cache/
 
 # Virtual environments
-.venv
+.venv/
+
+# Data files
+data/
+scripts/data/
+
+# Backup scripts
+scripts/knbs_silver_backup.py
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
